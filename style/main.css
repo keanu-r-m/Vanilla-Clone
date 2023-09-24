@@ -1,0 +1,18 @@
+@import "header.css";
+@import "section-one.css";
+
+@font-face {
+    font-family: primary-font;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: secondary-font;
+    src: url(../font/KaushanScript-Regular.ttf);
+}
+:root {
+    --secondary-color : #E1BE64;
+    --border: 1px solid black;
+}
+* {
+    font-family: primary-font, Helvetica, sans-serif;
+}

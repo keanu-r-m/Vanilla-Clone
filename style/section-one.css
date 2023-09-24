@@ -1,0 +1,52 @@
+.section-one {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3em;
+    
+}
+.section-one-title {
+    font-family: secondary-font, Helvetica, sans-serif;
+    text-align: center;
+}
+.section-boxes {
+    margin-top: 6em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.box-one h2 {
+    font-family: secondary-font, Helvetica, sans-serif;
+    margin-bottom: 1em;
+}
+.box-one {
+    position: relative;
+    padding-left: 2em ;
+}
+.box-one h1 {
+    font-family: secondary-font, Helvetica, sans-serif;
+    position: absolute;
+    font-size: clamp(7em, 10vw + 1.5em, 13em);
+    bottom: -17px;
+    color: rgb(240, 240, 240);
+    z-index: -1;
+}
+@media (max-width: 767px) {
+    .section-boxes {
+        display: block;
+        text-align: center;
+        margin-top: 4em;
+    }
+    .box-one {
+        padding: 0;
+    }
+    .box-two {
+        display: none;
+    }
+    
+}
+@media (min-width: 767px) and (max-width: 992px) {
+    .section-one {
+        max-width: 720px;
+    }
+}
