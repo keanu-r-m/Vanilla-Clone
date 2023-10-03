@@ -1,0 +1,36 @@
+.section-three {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 2em;
+    color: white;
+    align-items: center;
+}
+
+.three-box-one {
+    background: rgb(126, 126, 126) url("../image/img-01.jpg");
+}
+
+.three-box-two {
+    background: rgb(138, 138, 138) url("../image/img-02.jpg");
+}
+
+.three-box {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-top: 5em;
+    padding-right: 3em;
+    background-blend-mode: darken;
+    max-width: 700px;
+}
+
+@media (min-width: 1100px) {
+    .section-three {
+        flex-direction: row;
+    }
+}

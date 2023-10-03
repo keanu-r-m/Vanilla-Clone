@@ -1,5 +1,8 @@
 @import "header.css";
 @import "section-one.css";
+@import "section-three.css";
+@import "section-four.css";
+
 
 @font-face {
     font-family: primary-font;
