@@ -22,7 +22,7 @@
                     <i class="fa-solid fa-user nav-comp-invisible"></i>
                     <i class="fa-solid fa-cart-shopping"></i>
                     <div class="dropdown nav-comp-invisible">
-                        <button class="btn btn-secondary dropdown-toggle btn-dark button-drop" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-secondary dropdown-toggle btn-dark button-drop shadow-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-language"></i>
                         </button>
                         <ul class="dropdown-menu">
@@ -31,7 +31,7 @@
                         </ul>
                     </div>
                     <div class="dropdown nav-comp-invisible">
-                        <button class="btn btn-secondary dropdown-toggle btn-dark button-drop" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-secondary dropdown-toggle btn-dark button-drop shadow-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-money-bill"></i>
                         </button>
                         <ul class="dropdown-menu">
@@ -41,8 +41,8 @@
                     </div>
                 </div>
                 <div class="input-group mb-3 search">
-                    <input type="text" class="form-control" placeholder="Rechercher" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-outline-dark btn-dark" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass fa-lg magnifying" style="color: #ffffff;"></i>
+                    <input type="text" class="form-control shadow-none" placeholder="Rechercher" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-dark btn-dark shadow-none" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass fa-lg magnifying" style="color: #ffffff;"></i>
                     <i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
                   </div>
                 </div>
@@ -94,7 +94,7 @@
         </header>
 
         <section class="section-one">
-            <h2 class="section-one-title">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+            <h2 class="section-title">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
             <div class="section-boxes">
                 <div class="box-one">
                     <h1>lorem</h1>
@@ -109,15 +109,6 @@
             <a class="about" href="#">Lorem ipsum dolor sit amet.</a>
         </section>
 
-        <section class="section-two">
-            <ul class="tab">
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-            </ul>
-        </section>
-
         <section class="section-three">
             <div class="three-box-one three-box">
                 <h4>Lorem, ipsum.</h4>
@@ -129,7 +120,59 @@
             </div>
         </section>
 
+        <section class="section-two">
+          <h2 class="section-title">Lorem ipsum dolor, sit amet consectetur adipisicing.</h2>
+          
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+              <div class="tabs">
+                <div class="img-tab">
+                  <img src="image/img-tab1.webp" alt="image tab 1">
+                </div>
+                <div class="paragraph-tab">
+                  <h3>Lorem, ipsum.</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque facilis excepturi nobis sunt? Officiis sed, neque, doloremque placeat quisquam vero consectetur non necessitatibus inventore libero reprehenderit vitae soluta est mollitia adipisci ad veniam sapiente, iusto totam quas. Qui dolorum, explicabo assumenda totam officia fuga ullam eum maxime.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div class="tabs">
+                <div class="img-tab">
+                  <img src="image/img-tab2.jpg" alt="image tab 2">
+                </div>
+                <div class="paragraph-tab">
+                  <h3>Lorem, ipsum.</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque facilis excepturi nobis sunt? Officiis sed, neque, doloremque placeat quisquam vero consectetur non necessitatibus inventore libero reprehenderit vitae soluta est mollitia adipisci ad veniam sapiente, iusto totam quas. Qui dolorum, explicabo assumenda totam officia fuga ullam eum maxime.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+              <div class="tabs">
+                <div class="img-tab">
+                  <img src="image/img-tab3.webp" alt="image tab 3">
+                </div>
+                <div class="paragraph-tab">
+                  <h3>Lorem, ipsum.</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque facilis excepturi nobis sunt? Officiis sed, neque, doloremque placeat quisquam vero consectetur non necessitatibus inventore libero reprehenderit vitae soluta est mollitia adipisci ad veniam sapiente, iusto totam quas. Qui dolorum, explicabo assumenda totam officia fuga ullam eum maxime.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section class="section-four">
+          <h2 class="section-title">Lorem ipsum dolor, sit amet consectetur adipisicing.</h2>
           <div class="cards">
             <img src="image/img-01.jpg" alt="Card image" class="cards-img">
             <div class="cards-text">
@@ -140,25 +183,101 @@
                 <button class="cards-button">read more</button>
               <i class="fa-solid fa-comment"></i>
               <i class="fa-solid fa-eye"></i>
-            
             </div>
           </div>
-            
+          <div class="four-rows">
+            <div class="cards">
+              <img src="image/img-01.jpg" alt="Card image" class="cards-img">
+              <div class="cards-text">
+                <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, doloribus fugiat!</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore dolores! Optio, molestias? Atque eius eveniet consequatur voluptatem tenetur debitis eum voluptatum, velit provident non vero.</p>
+              </div>
+              <div class="cards-footer">
+                  <button class="cards-button">read more</button>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-eye"></i>
+              </div>
+            </div>
+
+            <div class="cards">
+              <img src="image/img-01.jpg" alt="Card image" class="cards-img">
+              <div class="cards-text">
+                <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, doloribus fugiat!</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore dolores! Optio, molestias? Atque eius eveniet consequatur voluptatem tenetur debitis eum voluptatum, velit provident non vero.</p>
+              </div>
+              <div class="cards-footer">
+                  <button class="cards-button">read more</button>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-eye"></i>
+              </div>
+            </div>
+
+            <div class="cards">
+              <img src="image/img-01.jpg" alt="Card image" class="cards-img">
+              <div class="cards-text">
+                <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, doloribus fugiat!</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore dolores! Optio, molestias? Atque eius eveniet consequatur voluptatem tenetur debitis eum voluptatum, velit provident non vero.</p>
+              </div>
+              <div class="cards-footer">
+                  <button class="cards-button">read more</button>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-eye"></i>
+              </div>
+            </div>
+
+            <div class="cards">
+              <img src="image/img-01.jpg" alt="Card image" class="cards-img">
+              <div class="cards-text">
+                <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, doloribus fugiat!</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore dolores! Optio, molestias? Atque eius eveniet consequatur voluptatem tenetur debitis eum voluptatum, velit provident non vero.</p>
+              </div>
+              <div class="cards-footer">
+                  <button class="cards-button">read more</button>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-eye"></i>
+              </div>
+            </div>
+          </div>
         </section>
 
-        <section class="section-five">
-
-        </section>
-
-        <section class="section-six">
-
-        </section>
-
-        <section class="section-seven">
-
-        </section>
-
-        <footer></footer>
+        <footer>
+          <div class="footer-elm">
+            <h4>Lorem</h4>
+            <ul>
+              <li>Lorem, ipsum</li>
+              <li>Lorem, ipsum</li>
+              <li>Lorem, ipsum</li>
+              <li>Lorem, ipsum</li>
+            </ul>
+          </div>
+          <div class="footer-elm">
+            <h4>Lorem</h4>
+            <ul>
+              <li>Lorem, ipsum</li>
+              <li>Lorem, ipsum</li>
+              <li>Lorem, ipsum</li>
+              <li>Lorem, ipsum</li>
+            </ul>
+          </div>
+          <div class="footer-elm">
+            <h4>Lorem</h4>
+            <ul>
+              <li>Lorem, ipsum</li>
+              <li>Lorem, ipsum</li>
+              <li>Lorem, ipsum</li>
+              <li>Lorem, ipsum</li>
+            </ul>
+          </div>
+          <div class="footer-elm">
+            <h4>Lorem</h4>
+            <ul>
+              <li>Lorem, ipsum</li>
+              <li>Lorem, ipsum</li>
+              <li>Lorem, ipsum</li>
+              <li>Lorem, ipsum</li>
+            </ul>
+          </div>
+        </footer>
     </div>
     <script src="style/bootstrap/bootstrap.bundle.js"></script>
     <script src="main.js"></script>

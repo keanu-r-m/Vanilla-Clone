@@ -11,6 +11,7 @@
     flex-direction: column;
     border: 1px solid rgb(179, 179, 179);
     gap: 2em;
+    margin-bottom: 1em;
 }
 .cards-text {
     padding-inline: 1em;
@@ -19,19 +20,54 @@
     font-weight: bold
 }
 .cards-footer {
-    background-color: #A0AA84;
+    background-color: var(--secondary-color);
     text-align: right;
     position: relative;
     padding: 0.7em 1em;
 }
 .cards-button {
     border: none;
-    background-color: #A0AA84;
+    background-color: var(--secondary-color);
     text-align: left;
     position: absolute;
     left: 0;
+    top: 0;
+    bottom: 0;
     font-weight: bold;
+}
+.cards-button:hover {
+    background-color: black;
+    color: var(--secondary-color);
 }
 .cards-footer i {
     margin-left: 2em;
+}
+
+.four-rows {
+    margin-top: 3em;
+}
+
+@media (min-width: 1100px) and (max-width: 1300px) {
+    .four-rows {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5em;
+    }
+    .four-rows .cards {
+        max-width: 500px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1301px) {
+    .four-rows {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-items: center;
+        gap: 0.5em;
+    }
+    .four-rows .cards {
+        max-width: 290px;
+    }
 }

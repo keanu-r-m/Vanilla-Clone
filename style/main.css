@@ -2,6 +2,8 @@
 @import "section-one.css";
 @import "section-three.css";
 @import "section-four.css";
+@import "section-two.css";
+@import "footer.css";
 
 
 @font-face {
@@ -13,9 +15,18 @@
     src: url(../font/KaushanScript-Regular.ttf);
 }
 :root {
-    --secondary-color : #E1BE64;
+    --secondary-color : #A0AA84;
     --border: 1px solid black;
 }
 * {
     font-family: primary-font, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-title {
+    font-family: secondary-font, Helvetica, sans-serif;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: 3em;
 }
